@@ -120,7 +120,7 @@ namespace FavoriteTwitterSearches
 				itemGroup.Children.Add (button);
 
 				var editButton = new Image { Aspect = Aspect.AspectFit };
-				editButton.Source = ImageSource.FromFile ("edit.jpg");
+				editButton.Source = ImageSource.FromFile ("edit.png");
 				editButton.HeightRequest = 40;
 				editButton.WidthRequest = 40;
 				editButton.GestureRecognizers.Add (new TapGestureRecognizer(){ 
